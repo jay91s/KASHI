@@ -1,0 +1,144 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border border-box;
+}
+header{              
+    width:100%; 
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.1)), url('img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width:100%;
+     height: 15vh;
+    background: rgb(0,0,0,0.2);
+    color: white; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    text-transform: uppercase;
+}
+nav .logo{
+    width:25%; 
+    text-align: center;
+}
+nav .menu{
+    width: 40%; 
+    display: flex; 
+    justify-content: space-around;
+ 
+    
+}
+    
+nav .menu a:first-child{     /*for menu element Color*/
+    color:#00b894;
+    }
+  
+
+
+nav .menu a{
+    width: 25%; 
+    text-decoration: none ;
+    color: white;
+    font-style: unset; 
+    font-weight: bold;
+}
+
+main{
+    width:100%;
+     height:85vh;display:flex;
+     justify-content: center;
+     align-items: center;
+    text-align: center;
+    color: white;
+}
+
+  selection h3{
+ font-size: 50px;
+ font-weight: 40; 
+ letter-spacing: 3px;
+text-shadow: 1px 1px 2px black ;
+  }
+
+selection h1{
+    margin: 30px 0 20px 0;
+    font-size: 80px;
+   font-weight: 500; 
+   text-shadow: 2px 1px 5px black ;
+  text-transform: uppercase;
+  }
+
+  selection p {
+    
+    font-size: 25px;
+    word-spacing: 2px;    
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black ;
+
+  }
+  selection a {                      /*anker tag desinging*/
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    align-items:flex-end;
+    transition: all .5s;       /*transion on element*/
+  }
+      selection .btnone {             /* signup & Knowmore Option*/
+      background:rgb(255, 255, 255); /*Or write white*/
+      color:black;
+      }
+      .btnone:hover{
+        background: #00b894;        /*Button1 animation*/
+        color: white;
+      } 
+      selection .btntwo {
+        background: #00b894;
+        color: white;
+      }
+      .btntwo:hover{
+        background:rgb(255, 255, 255);  /*Button2 animation*/
+        color:black;
+
+
+      }
+
+
+    /*.change_content:afte{
+        content:'';
+        animation:changetext 10s infinite linear;
+        color: #00b894;
+
+    }
+     @keyframes changetext{
+         0% {content:"KASHI";}
+         20% {content:"ASSI GHAT";} 
+         35% {content:"CORRIDOR";} 
+         60% {content:"KHIDKIYA GHATS";} 
+         80% {content:"SARNATH";} 
+         100% {content:"UTTAR PRADESH";} 
+         }
+         */
+head H4 {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
